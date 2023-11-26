@@ -1,0 +1,7 @@
+<BD088_Director_MK3.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/director/lods/BD088_Director_MK3_lod1	</parent>
+	<extent>	3.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/director/BD088_Director_MK3	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</BD088_Director_MK3.model>

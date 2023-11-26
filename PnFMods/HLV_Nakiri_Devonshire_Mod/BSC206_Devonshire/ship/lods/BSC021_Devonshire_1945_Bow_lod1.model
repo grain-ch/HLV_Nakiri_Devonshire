@@ -1,0 +1,7 @@
+<BSC021_Devonshire_1945_Bow_lod1.model>
+	<castsShadow>	true	</castsShadow>
+	<parent>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/ship/lods/BSC021_Devonshire_1945_Bow_lod2	</parent>
+	<extent>	30.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/ship/lods/BSC021_Devonshire_1945_Bow_lod1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</BSC021_Devonshire_1945_Bow_lod1.model>

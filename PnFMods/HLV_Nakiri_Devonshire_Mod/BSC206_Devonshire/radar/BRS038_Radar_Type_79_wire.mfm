@@ -1,0 +1,10 @@
+<BRS038_Radar_Type_79_wire.mfm>
+	<fx>	shaders/materials/pbs/wire_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/radar/BRS038_Radar_Type_79_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/radar/BRS038_Radar_Type_79_mg.dds	</Texture>
+	</property>
+</BRS038_Radar_Type_79_wire.mfm>
