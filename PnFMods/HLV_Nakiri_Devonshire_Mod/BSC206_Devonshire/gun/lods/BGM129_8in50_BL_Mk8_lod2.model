@@ -1,7 +1,0 @@
-<BGM129_8in50_BL_Mk8_lod2.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/gun/lods/BGM129_8in50_BL_Mk8_lod3	</parent>
-	<extent>	30.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/gun/lods/BGM129_8in50_BL_Mk8_lod2	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</BGM129_8in50_BL_Mk8_lod2.model>

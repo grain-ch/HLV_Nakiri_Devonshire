@@ -1,4 +1,5 @@
 <BGM105_8in50_BL_Mk8_skinned.mfm>
+	<!--<fx>	shaders/materials/pbs/ship_material_skinned.fx	</fx>-->
 	<fx>	shaders/materials/pbs/ship_emissive_material_skinned.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	emissivePower
@@ -13,6 +14,7 @@
 	<property>	alphaReference
 		<Int>	150	</Int>
 	</property>
+	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/gun/BGM105_8in50_BL_Mk8_ao.dds	</Texture>
 	</property>

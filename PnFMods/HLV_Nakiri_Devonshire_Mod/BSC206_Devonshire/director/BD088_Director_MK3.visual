@@ -1,14 +1,7 @@
 <BD088_Director_MK3.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	BD088_Director_MK3	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,32 +9,107 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	MP_BM984_Radar_Type284	</identifier>
+				<identifier>	BD088_Director_MK3	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
+				<node>
+					<identifier>	MP_BM984_Radar_Type284	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	BD088_Director_MK3	</node>
-		<geometry>
-			<vertices>	BD088_Director_MK3Shape.vertices	</vertices>
-			<primitive>	BD088_Director_MK3Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
-					<mfm>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/director/BD088_Director_MK3.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-0.1354 -0.0667 -0.0928	</min>
-		<max>	0.1354 0.1539 0.1229	</max>
+		<min>	-0.1353 -0.0667 -0.0928	</min>
+		<max>	0.1353 0.1538 0.1228	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	BD088_Director_MK3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BD088_Director_MK3	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/director/BD088_Director_MK3.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BD088_Director_MK3_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BD088_Director_MK3	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/director/BD088_Director_MK3.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BD088_Director_MK3_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BD088_Director_MK3	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/director/BD088_Director_MK3.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BD088_Director_MK3_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BD088_Director_MK3	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/director/BD088_Director_MK3.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BD088_Director_MK3Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	12.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BD088_Director_MK3_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BD088_Director_MK3_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	150.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	BD088_Director_MK3_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </BD088_Director_MK3.visual>

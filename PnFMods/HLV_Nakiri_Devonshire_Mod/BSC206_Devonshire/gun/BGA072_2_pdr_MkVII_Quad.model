@@ -1,7 +1,6 @@
 <BGA072_2_pdr_MkVII_Quad.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/gun/lods/BGA072_2_pdr_MkVII_Quad_lod1	</parent>
-	<extent>	4.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/gun/BGA072_2_pdr_MkVII_Quad	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/gun/BGA072_2_pdr_MkVII_Quad.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </BGA072_2_pdr_MkVII_Quad.model>

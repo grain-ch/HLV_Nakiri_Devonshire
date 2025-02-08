@@ -1,4 +1,5 @@
 <BSC021_Devonshire_1945_Deckhouse.mfm>
+	<!--<fx>	shaders/materials/pbs/ship_material.fx	</fx>-->
 	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	emissivePower
@@ -13,6 +14,7 @@
 	<property>	alphaReference
 		<Int>	150	</Int>
 	</property>
+	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/HLV_Nakiri_Devonshire_Mod/BSC206_Devonshire/ship/BSC021_Devonshire_1945_Deckhouse_ao.dds	</Texture>
 	</property>
